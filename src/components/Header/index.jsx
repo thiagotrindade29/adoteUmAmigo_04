@@ -5,11 +5,14 @@ import { PawPrint } from "lucide-react";
 export default function Header() {
   return (
     <header className="header">
-      <div>
-        <PawPrint size={28} color="#343131" strokeWidth={1.25} />
-        <h1>PetLove</h1>
+      <div >
+        <PawPrint size={36} color="#d26060" strokeWidth={1.25} />
+        <h1>Adote um amigo</h1>
       </div>
-      <p>Adotando Melhores Amigos :D</p>
+
+      <p>Encontre o seu novo melhor amigo</p>
     </header>
-  );
+
+  )
 }
+
